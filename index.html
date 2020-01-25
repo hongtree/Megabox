@@ -73,7 +73,7 @@
             <div class="row">
                 <div class="header clearfix">
                     <h1>
-                        <a href="#">
+                        <a href="index.html">
                             <em><img src="imgs/logo.png" alt="MEGABOX" /></em>
                             <strong><img src="imgs/logo-sub.png" alt="LIFE THEATER" /></strong>
                         </a>
@@ -82,9 +82,20 @@
                         <h2 class="ir_so">메가박스 전체메뉴</h2>
                         <a href="#" class="ham"><span></span></a>
                     </nav>
+                    <!-- //mnav:모바일 햄버거메뉴 버튼 -->
+                    <ul class="mobile-navc">
+                        <li><a href="megabox1.html">영화</a></li>
+                        <li><a href="#">큐레이션</a></li>
+                        <li><a href="#">영화관</a></li>
+                        <li><a href="#">특별관</a></li>
+                        <li><a href="#">스토어</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#"><img src="imgs/mban.jpg" alt="모바일메뉴 하단 배너"></a></li>
+                    </ul>
+                    <!--// mobile-navc -->
                     <nav class="navigation">
                         <ul class="clearfix">
-                            <li><a href="#">영화</a></li>
+                            <li><a href="megabox1.html">영화</a></li>
                             <li><a href="#">큐레이션</a></li>
                             <li><a href="#">영화관</a></li>
                             <li><a href="#">특별관</a></li>
@@ -1858,6 +1869,16 @@
     <script src="js/iframe_api.js"></script>
     <script src="js/movie.js"></script>
     <script src="js/custom.js"></script>
+
+    <script>
+        //모바일메뉴 슬라이드효과
+        $(function() {
+            $("#mNav").click(function(e) {
+                e.preventDefault();
+                $(".mobile-navc").toggleClass("show");
+            })
+        });
+    </script>
 </body>
 
 </html>

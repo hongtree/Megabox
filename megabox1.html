@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>메가박스:영화</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+	<!-- 파비콘 -->
+	<link rel="shortcut icon" href="icons/favicon.ico" />
+	<link rel="apple-touch-icon-precomposed" href="icons/favicon_72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="96x96" href="icons/favicon_96.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/favicon_144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="192x192" href="icons/favicon_192.png" />
+    
+    <!-- 웹 폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&amp;subset=korean" rel="stylesheet">
+   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- HTLM5shiv ie6~8 -->
+    <!--[if lt IE 9]> 
+      <script src="assets/js/html5shiv.min.js"></script>
+      <script type="text/javascript">
+         alert("현재 브라우저는 지원하지 않습니다. 크롬 브라우저를 추천합니다.!");
+      </script>
+   <![endif]-->
+
+   <style>
+	#section {min-height:1000px !important;}
+   </style>
+</head>
+<body>
+	
+    
+ <!-- //스킵메뉴-->
+ <header id="header">
+	<div class="container">
+		<div class="row">
+			<div class="header clearfix">
+				<h1>
+					<a href="index.html">
+						<em><img src="imgs/logo.png" alt="MEGABOX" /></em>
+						<strong><img src="imgs/logo-sub.png" alt="LIFE THEATER" /></strong>
+					</a>
+				</h1>
+				<nav id="mNav">
+					<h2 class="ir_so">메가박스 전체메뉴</h2>
+					<a href="#" class="ham"><span></span></a>
+				</nav>
+				<!-- //mnav:모바일 햄버거메뉴 버튼 -->
+				<ul class="mobile-navc">
+					<li><a href="megabox1.html">영화</a></li>
+					<li><a href="#">큐레이션</a></li>
+					<li><a href="#">영화관</a></li>
+					<li><a href="#">특별관</a></li>
+					<li><a href="#">스토어</a></li>
+					<li><a href="#">이벤트</a></li>
+					<li><a href="#"><img src="imgs/mban.jpg" alt="모바일메뉴 하단 배너"></a></li>
+				</ul>
+				<!--// mobile-navc -->
+						
+				<nav class="navigation">
+					<ul class="clearfix">
+						<li><a href="#">영화</a></li>
+						<li><a href="#">큐레이션</a></li>
+						<li><a href="#">영화관</a></li>
+						<li><a href="#">특별관</a></li>
+						<li><a href="#">스토어</a></li>
+						<li><a href="#">이벤트</a></li>
+						<li><a href="#">로그인</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- //header -->
+    
+    
+    <section id="section">
+		
+				<div class="subgnb">
+                    <div class="container">
+                        <div class="row">
+                            <ul class="sgnb-lbox">
+                                <li><a href="#">최신 영화리스트</a></li>
+                                <li><a href="#">인기 영화리스트</a></li>
+                            </ul><!--//sgnb-lbox-->
+
+                            <ul class="sgnb-rbox">
+                                <li><a href="#">고객센터</a></li>
+                                <li><a href="#">멤버쉽</a></li>
+                                <li><a href="#">VIP</a></li>
+                                <li><a href="#">상영시간표</a></li>
+                                <li><a href="#"><span>빠른예매</span><img src="imgs/yemae.jpg" width="43" height="39" border="0" alt=""></a></li>
+                            </ul><!--//sgnb-rbox-->
+
+
+                        </div>
+                    </div>
+				</div><!--//subgnb-->
+				<div class="movie-pagetitle">
+					<div class="container">
+						<div class="row">
+							<h1 class="paget-rank">
+								<img src="imgs/unnamed.png" alt="">
+								<ul class="paget-tits">
+									<li><a href="#" class="active">박스오피스</a></li>
+									<li><a href="#">최신개봉작</a></li>
+									<li><a href="#">상영예정작</a></li>
+									<li><a href="#">영화제</a></li>
+									<li><a href="#">♥ 보고싶어</a></li>
+									<li><a href="#">무비포스트</a></li>
+								</ul>
+								<a href="#" class="mymovie">나의 무비스토리 &gt;</a>
+							</h1><!--//paget-rank-->
+						</div>
+					</div>
+				</div><!--//movie-pagetitle-->
+				
+				<div class="movie_list">
+					<div class="container">
+						<div class="row">
+					<ul>
+						<li>
+                              <a href="#"></a>
+							   <div class="rank"><strong>1</strong></div>
+							   <div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								    <div class="rating">		
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox1-->
+							  <div class="poster-text">
+									<div class="star">
+										<strong>평점 9.0 </strong>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star2"></span>
+										 
+									</div>
+									<div class="infor">
+										<h3><span class="icon a15 ir_pm">15세 이상 관람</span> <strong>나쁜 녀석들</strong></h3>
+									    <div class="more-box">
+												<a href="#">상세정보</a>
+												<a href="#">예매하기</a>
+										</div>
+									</div>
+							  
+							  </div><!--//poster-text1-->
+						</li>
+						<li>
+                            <a href="#"></a>
+								<div class="rank"><strong>2</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox2-->
+							  <div class="poster-text">
+									<div class="star">
+										<strong>평점 7.5 </strong>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star2"></span>
+										<span class="icon star0"></span>
+										 
+									</div>
+									<div class="infor">
+										<h3><span class="icon a12 ir_pm">15세 이상 관람</span> <strong>타짜:원이아드 잭</strong></h3>
+									    <div class="more-box">
+												<a href="#">상세정보</a>
+												<a href="#">예매하기</a>
+										</div>
+									</div>
+							  
+							  </div><!--//poster-text2-->
+						
+						</li>
+						<li>
+                          <a href="#"></a>
+							  <div class="rank"><strong>3</strong></div>
+							  <div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox3-->
+							  <div class="poster-text">
+									<div class="star">
+										<strong>평점 6.2 </strong>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star2"></span>
+										<span class="icon star0"></span>
+										<span class="icon star0"></span>
+										 
+									</div>
+									<div class="infor">
+										<h3><span class="icon all ir_pm">15세 이상 관람</span> <strong>라이브뷰잉</strong></h3>
+									    <div class="more-box">
+												<a href="#">상세정보</a>
+												<a href="#">예매하기</a>
+										</div>
+									</div>
+							  
+							  </div><!--//poster-text-->
+
+
+						</li>
+						<li>
+                            <a href="#"></a>
+								<div class="rank"><strong>4</strong></div>
+						       <div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox4-->
+							  <div class="poster-text">
+									<div class="star">
+										<strong>평점 9.2 </strong>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star2"></span>
+										 
+									</div>
+									<div class="infor">
+										<h3><span class="icon all ir_pm">전체연령</span> <strong>예스터데이</strong></h3>
+									    <div class="more-box">
+												<a href="#">상세정보</a>
+												<a href="#">예매하기</a>
+										</div>
+									</div>
+							  
+							  </div><!--//poster-text4-->
+						
+						</li>
+						<li>
+                            <a href="#"></a>
+								<div class="rank"><strong>5</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox5-->
+							   <div class="poster-text">
+									<div class="star">
+										<strong>평점 9.8 </strong>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										 
+									</div>
+									<div class="infor">
+										<h3><span class="icon a15 ir_pm">12세</span> <strong>애드 아스트라</strong></h3>
+									    <div class="more-box">
+												<a href="#">상세정보</a>
+												<a href="#">예매하기</a>
+										</div>
+									</div>
+							  </div><!--//poster-text5-->
+						
+						</li>
+						<li>
+                            <a href="#"></a>
+								<div class="rank"><strong>6</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">	
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox6-->
+							  <div class="poster-text">
+									<div class="star">
+										<strong>평점 5.5 </strong>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star0"></span>
+										<span class="icon star0"></span>
+										 
+									</div>
+									<div class="infor">
+										<h3><span class="icon all ir_pm">12세</span> <strong>힘을내요! 미스터리</strong></h3>
+									    <div class="more-box">
+												<a href="#">상세정보</a>
+												<a href="#">예매하기</a>
+										</div>
+									</div>  
+							  </div><!--//poster-text6-->
+						</li>
+						<li><a href="#"></a>
+								<div class="rank"><strong>7</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox7-->
+							   <div class="poster-text">
+									<div class="star">
+										<strong>평점 8.5 </strong>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star0"></span>
+										 
+									</div>
+									<div class="infor">
+										<h3><span class="icon a19 ir_pm">15세</span> <strong>벌새</strong></h3>
+									    <div class="more-box">
+												<a href="#">상세정보</a>
+												<a href="#">예매하기</a>
+										</div>
+									</div>
+							  
+							  </div><!--//poster-text7-->
+						</li>
+						<li><a href="#"></a>
+								<div class="rank"><strong>8</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox8-->
+							  <div class="poster-text">
+									<div class="star">
+										<strong>평점 9.1 </strong>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star0"></span>
+										 
+									</div>
+									<div class="infor">
+										<h3><span class="icon a15 ir_pm">12세</span> <strong>유열의 음악앨범</strong></h3>
+									    <div class="more-box">
+												<a href="#">상세정보</a>
+												<a href="#">예매하기</a>
+										</div>
+									</div>
+							  
+							  </div><!--//poster-text8-->
+						</li>
+						<li><a href="#"></a>
+								<div class="rank"><strong>9</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox9-->
+						      <div class="poster-text">
+									<div class="star">
+										<strong>평점 7.5 </strong>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star1"></span>
+										<span class="icon star2"></span>
+										<span class="icon star0"></span>
+										 
+									</div>
+									<div class="infor">
+										<h3><span class="icon a12 ir_pm">12세</span> <strong>그것 - 두번째 이야기</strong></h3>
+									    <div class="more-box">
+												<a href="#">상세정보</a>
+												<a href="#">예매하기</a>
+										</div>
+									</div>
+							  
+							  </div><!--//poster-text9-->
+						</li>
+						<li><a href="#"></a>
+								<div class="rank"><strong>10</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//rateboxt10-->
+								<div class="poster-text">
+										<div class="star">
+											<strong>평점 9.1 </strong>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											 
+										</div>
+										<div class="infor">
+											<h3><span class="icon all ir_pm">전체</span> <strong>엑시트</strong></h3>
+											<div class="more-box">
+													<a href="#">상세정보</a>
+													<a href="#">예매하기</a>
+											</div>
+										</div>
+								  
+								  </div><!--//poster-text10-->
+								  
+						</li>
+						<div class="plus">+ 더보기</div>
+						<li><a href="#"></a>
+								<div class="rank"><strong>11</strong></div>
+							  <div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox11-->
+							    <div class="poster-text">
+										<div class="star">
+											<strong>평점 9.4 </strong>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											 
+										</div>
+										<div class="infor">
+											<h3><span class="icon all ir_pm">전체</span> <strong>카봇:달나라를 구해줘</strong></h3>
+											<div class="more-box">
+													<a href="#">상세정보</a>
+													<a href="#">예매하기</a>
+											</div>
+										</div>
+								  
+								  </div><!--//poster-text11-->
+						</li>
+						<li><a href="#"></a>
+								<div class="rank"><strong>12</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox12-->
+							    <div class="poster-text">
+										<div class="star">
+											<strong>평점 9.8 </strong>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											 
+										</div>
+										<div class="infor">
+											<h3><span class="icon all ir_pm">전체</span> <strong>안녕~ 베일리</strong></h3>
+											<div class="more-box">
+													<a href="#">상세정보</a>
+													<a href="#">예매하기</a>
+											</div>
+										</div>
+								  
+								  </div><!--//poster-text12-->
+						</li>
+						<li><a href="#"></a>
+								<div class="rank"><strong>13</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox13-->
+							   <div class="poster-text">
+										<div class="star">
+											<strong>평점 8.1 </strong>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star0"></span>
+											 
+										</div>
+										<div class="infor">
+											<h3><span class="icon a15 ir_pm">전체</span> <strong>우리집</strong></h3>
+											<div class="more-box">
+													<a href="#">상세정보</a>
+													<a href="#">예매하기</a>
+											</div>
+										</div>
+								  
+								  </div><!--//poster-text13-->
+						</li>
+						<li><a href="#"></a>
+								<div class="rank"><strong>14</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox14-->
+							    <div class="poster-text">
+										<div class="star">
+											<strong>평점 8.9 </strong>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star2"></span>
+											 
+										</div>
+										<div class="infor">
+											<h3><span class="icon all ir_pm">전체</span> <strong>반지의 비밀일기</strong></h3>
+											<div class="more-box">
+													<a href="#">상세정보</a>
+													<a href="#">예매하기</a>
+											</div>
+										</div>
+								  
+								  </div><!--//poster-text14-->
+						</li>
+						<li><a href="#"></a>
+								<div class="rank"><strong>15</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox15-->
+						       <div class="poster-text">
+										<div class="star">
+											<strong>평점 8.1 </strong>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star0"></span>
+											 
+										</div>
+										<div class="infor">
+											<h3><span class="icon a19 ir_pm">15세</span> <strong>분노의 질주5</strong></h3>
+											<div class="more-box">
+													<a href="#">상세정보</a>
+													<a href="#">예매하기</a>
+											</div>
+										</div>
+								  
+								  </div><!--//poster-text15-->
+						</li>
+						<li><a href="#"></a>
+								<div class="rank"><strong>16</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox15-->
+							    <div class="poster-text">
+										<div class="star">
+											<strong>평점 9.0 </strong>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star0"></span>
+											 
+										</div>
+										<div class="infor">
+											<h3><span class="icon a15 ir_pm">12세</span> <strong>봉오동 전투</strong></h3>
+											<div class="more-box">
+													<a href="#">상세정보</a>
+													<a href="#">예매하기</a>
+											</div>
+										</div>
+								  
+								  </div><!--//poster-text15-->
+						</li>
+						<li><a href="#"></a>
+								<div class="rank"><strong>17</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								    <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox17-->
+							    <div class="poster-text">
+										<div class="star">
+											<strong>평점 8.8 </strong>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star0"></span>
+											 
+										</div>
+										<div class="infor">
+											<h3><span class="icon all ir_pm">전체</span> <strong>플레이모빌:더무비</strong></h3>
+											<div class="more-box">
+													<a href="#">상세정보</a>
+													<a href="#">예매하기</a>
+											</div>
+										</div>
+								  
+								</div><!--//poster-text17-->
+						
+						</li>
+						<li><a href="#"></a>
+								<div class="rank"><strong>18</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox18-->
+							    <div class="poster-text">
+										<div class="star">
+											<strong>평점 9.5 </strong>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											 
+										</div>
+										<div class="infor">
+											<h3><span class="icon all ir_pm">전체</span> <strong>집으로</strong></h3>
+											<div class="more-box">
+													<a href="#">상세정보</a>
+													<a href="#">예매하기</a>
+											</div>
+										</div>
+								  
+				              </div><!--//poster-text18-->
+						</li>
+						<li><a href="#"></a>
+								<div class="rank"><strong>19</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox19-->
+							    <div class="poster-text">
+										<div class="star">
+											<strong>평점 7.8 </strong>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star2"></span>
+											<span class="icon star0"></span>
+											 
+										</div>
+										<div class="infor">
+											<h3><span class="icon a19 ir_pm">15세</span> <strong>변신</strong></h3>
+											<div class="more-box">
+													<a href="#">상세정보</a>
+													<a href="#">예매하기</a>
+											</div>
+										</div>
+								  
+								  </div><!--//poster-text19-->
+						</li>
+						<li><a href="#"></a>
+								<div class="rank"><strong>20</strong></div>
+								<div class="ratebox">
+									<p class="ratetext">관람한 영화를 <br>평가해주세요 !</p>
+								   <div class="rating">
+											
+											<input type="radio" name="star" id="star1"><label for="star1"></label>
+											<input type="radio" name="star" id="star2"><label for="star2"></label>
+											<input type="radio" name="star" id="star3"><label for="star3"></label>
+											<input type="radio" name="star" id="star4"><label for="star4"></label>
+											<input type="radio" name="star" id="star5"><label for="star5"></label>
+										</div>
+								</div><!--//ratebox20-->
+						        <div class="poster-text">
+										<div class="star">
+											<strong>평점 9.3 </strong>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											<span class="icon star1"></span>
+											 
+										</div>
+										<div class="infor">
+											<h3><span class="icon all ir_pm">전체</span> <strong>동물 , 원</strong></h3>
+											<div class="more-box">
+													<a href="#">상세정보</a>
+													<a href="#">예매하기</a>
+											</div>
+										</div>
+								  
+								</div><!--//poster-text20-->
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			
+		</div><!--//movie_list-->
+    </section>
+    
+    <footer id="footer">
+        <div id="footer_sns">
+            <div class="container">
+                <div class="footer_sns">
+                    <ul>
+                        <li class="icon s1"><a href="#"><span class="ir_pm">트위터</span></a></li>
+                        <li class="icon s2"><a href="#"><span class="ir_pm">페이스북</span></a></li>
+                        <li class="icon s3"><a href="#"><span class="ir_pm">인스타그램</span></a></li>
+                        <li class="icon s4"><a href="#"><span class="ir_pm">구글 플레이</span></a></li>
+                        <li class="icon s5"><a href="#"><span class="ir_pm">아이폰 앱스토어</span></a></li>
+                    </ul>    
+                    <div class="tel">
+                        <a href="#">ARS <em>1544-0070</em></a>
+                    </div>
+                </div><!--//.footer_sns-->
+            </div>
+        </div><!--//#footer_sns-->
+		<div id="footer_info">
+            <div class="container">
+                <div class="row">
+                    <div class="footer_info">
+                        <h2><img src="imgs/logo_footer.png" alt="megabox" /></h2>
+                        <ul>
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">채용정보</a></li>
+                            <li><a href="#">제휴/광고/부대사업 문의</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보 처리방침</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">윤리경영</a></li>
+                        </ul>
+                        <address>
+                            <p>
+                                서울특별시 강남구 도산대로 156, 2층 메가박스중앙(주) (논현동,
+                                중앙엠앤비사옥)<br /><span class="bar2">대표자명 김진선</span>
+                                개인정보보호 책임자 경영지원실 실장 박영진<br /><span class="bar2">사업자등록번호 211-86-59478</span>
+                                통신판매업신고번호 제 833호
+                            </p>
+                            <p>Copyright 2014 by MegaboxJoongAng Inc. All right reserved</p>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    
+
+    
+    
+    
+    <!-- 자바스크립트-->
+    <script src="js/jquery.min_1.12.4.js"></script>
+	<script src="js/custom.js"></script>
+	<script>
+        //모바일메뉴 슬라이드효과
+            $(function() {
+                $("#mNav").click(function(e) {
+                    e.preventDefault();
+                    $(".mobile-navc").toggleClass("show");
+                })
+            });
+    </script>
+</body>
+</html>
